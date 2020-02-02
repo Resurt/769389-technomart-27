@@ -22,16 +22,17 @@
       <ul>
         <li>
           <a href="#">
-            <svg version="1.1" x="0px" y="0px" width="20px" height="17px" viewBox="0 0 20 17" enable-background="new 0 0 20 17" xml:space="preserve">
-							<g>
-								<polygon fill="#c5c5c5" points="14.875,8.5 6,0 6,6 0,6 0,11 6,11 6,17 	"></polygon>
-							</g>
-							<path fill="#c5c5c5" d="M16.986,15.01h-5.027V17h5.027c2.178,0,3.004-1.81,3.029-3.026V3.028C19.99,1.811,19.164,0,16.986,0h-5.027
+            <svg version="1.1" x="0px" y="0px" width="20px" height="17px" viewBox="0 0 20 17"
+              enable-background="new 0 0 20 17" xml:space="preserve">
+              <g>
+                <polygon fill="#c5c5c5" points="14.875,8.5 6,0 6,6 0,6 0,11 6,11 6,17 	"></polygon>
+              </g>
+              <path fill="#c5c5c5" d="M16.986,15.01h-5.027V17h5.027c2.178,0,3.004-1.81,3.029-3.026V3.028C19.99,1.811,19.164,0,16.986,0h-5.027
 							v1.99h5.027c0.839,0,0.992,0.681,1.01,1.057v10.904C17.979,14.327,17.825,15.01,16.986,15.01z"></path>
-						</svg>
+            </svg>
             <span>Войти</span>
-        </a>
-      </li>
+          </a>
+        </li>
         <li><a href="#">Регистрация</a></li>
       </ul>
       <nav>
@@ -218,6 +219,15 @@
         <p>Вы можете забрать товар сами,
           заехав в наш офис:
         </p>
+        <a href="img/map.jpg">
+          <img src="img/mini-map.jpg" width="300" height="158"
+            alt="Наш офис находится по адресу: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+        </a>
+        <!--<div class="modal-map modal-content-show-map">
+          <button class="modal-content-close-map" type="button"></button>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d594.1898431367896!2d30.32281709519088!3d59.938639343398236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1460921418112" width="940" height="448" frameborder="0" style="border:0" allowfullscreen="">
+          </iframe>
+        </div> -->
         <a href="#">Заблудились? Напишите нам!</a>
       </div>
     </section>
@@ -249,9 +259,9 @@
     </div>
     <div>
       <ul>
-        <li><a href="#"><span>Vkontakte</span></a></li>
-        <li><a href="#"><span>facebook</span></a></li>
-        <li><a href="#"><span>Instagram</span></a></li>
+        <li><a href="#" aria-label="Наша страница во Вконтакте"><span>Vkontakte</span></a></li>
+        <li><a href="#" aria-label="Наша страница в Фейсбук"><span>facebook</span></a></li>
+        <li><a href="#" aria-label="Наша страница в Инстаграм"><span>Instagram</span></a></li>
       </ul>
     </div>
     <div>
@@ -267,5 +277,19 @@
       </ul>
     </div>
   </footer>
+  <div class="modal">
+    <form action="https://echo.htmlacademy.ru" method="POST">
+      <button type="button"></button>
+      <label for="user-name">Ваше имя:</label>
+      <input type="text" name="user-name" id="user-name" placeholder="Представьтесь, пожалуйста" required autofocus>
+      <label for="user-email">Ваш e-mail:</label>
+      <input type="email" name="user-email" id="user-email" placeholder="Для отправки ответа" required>
+      <label for="inscription-text">Текст письма:</label>
+      <textarea name="text" id="inscription-text" placeholder="В свободной форме" required></textarea>
+      <div>
+        <button type="submit">Отправить</button>
+      </div>
+    </form>
+  </div>
 </body>
 </html>
