@@ -38,12 +38,15 @@ input[type="radio"].visually-hidden {
 }
 
 .header-top {
+  background-color: #293449;
+  height: 46px;
+}
+
+.header-top .container {
   font-size: 17px;
   line-height: 18px;
   font-weight: 400;
   color: #ffffff;
-
-  background-color: #293449;
   display: flex;
 }
 
@@ -72,6 +75,20 @@ input[type="radio"].visually-hidden {
   line-height: 21px;
   color: #ee3643;
 }
+
+.buy-content {
+  display: flex;
+}
+
+.bookmarks,
+.basket,
+.buy-order {
+  width: 150px;
+  text-align: center;
+  display: block;
+  padding: 12px 0;
+}
+
 
 .buy-content a {
   font-size: 17px;
@@ -121,6 +138,7 @@ input[type="radio"].visually-hidden {
 .category {
   display: flex;
   list-style: none;
+  height: 123px;
 }
 
 .category li {
@@ -166,7 +184,6 @@ input[type="radio"].visually-hidden {
 .popular-product,
 .popular-manufacturer {
   background-color: #f9f5f0;
-  width: 940px;
   min-height: 89px;
 }
 
@@ -187,7 +204,6 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
   color: #ffffff;
   text-transform: uppercase;
-  padding: 14px 55px;
   background-color: #ee3643;
   border-radius: 5px;
 }
@@ -340,6 +356,7 @@ input[type="radio"].visually-hidden {
 
 .footer-head {
   background-color: #32425c;
+  min-height: 193px;
 }
 
 .footer-address,
@@ -376,6 +393,7 @@ input[type="radio"].visually-hidden {
 
 .footer-bottom {
   background-color: #293449;
+  min-height: 107px;
 }
 
 .copyright {
@@ -408,6 +426,8 @@ input[type="radio"].visually-hidden {
 
 .breadcrumb {
   list-style: none;
+  padding: 0;
+  display: flex;
 }
 
 .breadcrumb-item  {
@@ -483,6 +503,8 @@ input[type="radio"].visually-hidden {
 .about-perforators {
   min-height: 261px;
   background-color: #f4f7f9;
+  padding-top: 67px;
+  box-sizing: border-box;
 }
 
 .about-perforators h2 {
@@ -505,6 +527,8 @@ input[type="radio"].visually-hidden {
 .pagination-list {
   list-style: none;
   display: flex;
+  padding: 0;
+  margin-left: 370px;
 }
 
 .pagination-item,
@@ -567,5 +591,369 @@ input[type="radio"].visually-hidden {
 
 .container {
   margin: 0 auto;
-  width: 940px;
+  width: 960px;
+}
+
+.header-search {
+  background-color: #293449;
+  width: 265px;
+  border: none;
+  height: 42px;
+}
+
+.buy-order {
+  background-color: #63a63e;
+}
+
+.popular-product {
+  display: flex;
+}
+
+.popular-product-link {
+  width: 253px;
+  height: 38px;
+  box-sizing: border-box;
+  padding-top: 12px;
+  padding-left: 52px;
+  padding-right: 52px;
+  margin-top: 25px;
+  margin-right: 24px;
+}
+
+.popular-product-header {
+  margin-left: 30px;
+}
+
+.about-company-wrapper {
+  display: flex;
+}
+
+.footer-head-wrapper {
+  display: flex;
+}
+
+.footer-bottom-wrapper {
+  display: flex;
+}
+
+.creator-contacts {
+  display: flex;
+}
+
+.category-materials,
+.category-tools,
+.category-technics,
+.category-discounts,
+.category-delivery {
+  position: relative;
+}
+
+.category-materials:first-child::before {
+  content: "";
+  position: absolute;
+  left: 212px;
+  top: 31px;
+  background-image: url(../img/icon-1.svg);
+  width: 44px;
+  height: 65px;
+}
+
+.category-tools:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  left: 196px;
+  top: 32px;
+  background-image: url(../img/icon-2.svg);
+  width: 75px;
+  height: 61px;
+}
+
+.category-technics:last-child::before {
+  content: "";
+  position: absolute;
+  left: 190px;
+  top: 30px;
+  background-image: url(../img/icon-3.svg);
+  width: 78px;
+  height: 62px;
+}
+
+.category-type {
+  justify-content: space-between;
+}
+
+.category {
+  padding: 0;
+}
+
+.category-header {
+  padding-left: 22px;
+}
+
+.category-discounts:first-child::before {
+  content: "";
+  width: 59px;
+  height: 72px;
+  position: absolute;
+  top: 26px;
+  right: 45px;
+  background-image: url(../img/icon-4.svg);
+  background-repeat: no-repeat;
+}
+
+.category-delivery:last-child::before {
+  content: "";
+  width: 80px;
+  height: 64px;
+  position: absolute;
+  top: 33px;
+  right: 29px;
+  background-image: url(../img/icon-5.svg);
+  background-repeat: no-repeat;
+}
+
+.popular-manufacturer {
+  display: flex;
+}
+
+.popular-manufacturer-link {
+  width: 253px;
+  height: 38px;
+  box-sizing: border-box;
+  padding-top: 12px;
+  padding-left: 69px;
+  padding-right: 52px;
+  margin-top: 25px;
+  margin-right: 24px;
+}
+
+.popular-manufacturer-header {
+  margin-left: 30px;
+}
+
+.copyright {
+  margin-right: 161px;
+}
+
+.social-block {
+  margin-right: 119px;
+}
+
+.footer-mail {
+  margin-right: 53px;
+}
+
+.slider .wrapper {
+  width: 620px;
+  position: relative;
+}
+
+.slider {
+  margin-right: auto;
+  display: flex;
+}
+
+.slider input[type=radio] {
+  display: none;
+}
+
+.slider-controls {
+  position: absolute;
+  top: 216px;
+  left: 294px;
+}
+
+.slider-controls label {
+  position: relative;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-controls label::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  position: absolute;
+  border-radius: 50%;
+}
+
+#slider-1:checked~.slider-controls .slider-controls-item-1::after, #slider-2:checked~.slider-controls .slider-controls-item-2::after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 6px;
+  height: 6px;
+  background-color: #ee3643;
+  border-radius: 50%;
+}
+
+.slider-controls-buttons {
+  width: 587px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+}
+
+.slider-controls-buttons label {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.slider-controls-buttons label:first-child::before {
+  border-top-style: none;
+  border-right-style: none;
+}
+
+.slider-controls-buttons label::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  border: 3px solid #ffffff;
+  position: absolute;
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.slider-controls-buttons label:last-child {
+  margin-left: auto;
+}
+
+.slider-controls-buttons label:last-child::before {
+  border-left-style: none;
+  border-bottom-style: none;
+}
+
+.slider-list {
+  padding: 0;
+}
+
+#slider-1:checked~.slider-list .slider-list-item:first-child, #slider-2:checked~.slider-list .slider-list-item:last-child {
+  display: block;
+}
+
+.slider-list-item:first-child {
+  background-image: url(../img/slider-1.jpg);
+  background-repeat: no-repeat;
+}
+
+.slider-list-item {
+  display: none;
+  width: 620px;
+  min-height: 266px;
+  color: #fff;
+}
+
+.slider-list-item .description {
+  background-color: rgba(0,0,0,.2);
+  padding: 26px 25px 22px;
+}
+
+.slider-list-item h2 {
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.slider-list-item span {
+  display: block;
+  margin: 3px 0 0;
+  font-family: "PT Sans",Arial,sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.slider-list-item a {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-top: 102px;
+  margin-left: 26px;
+  background-color: #ee3643;
+  width: 195px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.slider-list-item:last-child {
+  background-image: url(../img/slider-2.jpg);
+  background-repeat: no-repeat;
+}
+
+.category-other {
+  flex-direction: column;
+}
+
+.breadcrumbs-item:not(:last-child) a::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border: 1px solid #c1c6ce;
+  border-top-style: none;
+  border-left-style: none;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 3px;
+}
+
+.breadcrumbs-item a {
+  position: relative;
+  display: block;
+  font-family: "PT Sans",Arial,sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-right: 27px;
+}
+
+.perforators-header {
+  padding-top: 32px;
+  padding-left: 30px;
+
+}
+
+.filter-wrapper {
+  display: flex;
+}
+
+.manufacturers-filter,
+.power {
+  border: none;
+}
+
+.manufacturers-list,
+.power-list {
+  padding: 0;
+}
+
+.filter-header {
+  font-family: "PT Sans",Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
+  width: 220px;
+  height: 38px;
+  background-color: #f7f3ec;
+  padding-top: 12px;
+  padding-left: 18px;
+  box-sizing: border-box;
+  margin-right: 20px;
 }
