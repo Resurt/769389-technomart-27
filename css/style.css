@@ -1411,7 +1411,6 @@ input.header-search::placeholder {
   display: block;
 }
 
-
 .services-item {
   display: none;
   width: 620px;
@@ -1704,12 +1703,14 @@ input[type=search]:focus+label path {
   margin: 0;
 }
 
-.manufacturers-item:not(:last-child) label, .power-item:not(:last-child) label {
+.manufacturers-item:not(:last-child) label,
+.power-item:not(:last-child) label {
   display: block;
   margin-bottom: 20px;
 }
 
-.manufacturers-item label, .power-item label {
+.manufacturers-item label,
+.power-item label {
   position: relative;
   line-height: 20px;
   padding-left: 34px;

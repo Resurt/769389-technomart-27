@@ -123,47 +123,56 @@
             <p class="filter-header">Фильтр:</p>
             <form action="https://echo.htmlacademy.ru" method="GET">
               <fieldset class="range-filter">
-								<legend class="price-filter">ЦЕНА:</legend>
-								<div class="range">
-									<p class="line"></p>
-									<p class="line-left"></p>
-									<p class="range-left">
-										<img src="img/filter-button.svg" width="20" height="23" alt="Левый ползунок">
-									</p>
-									<p class="range-right">
-										<img src="img/filter-button.svg" width="20" height="23" alt="Правый ползунок">
-									</p>
-								</div>
-								<div class="cost">
-									<p class="cost-min">
-										<input type="text" name="price-min" id="price-min" value="0" placeholder="0">
-										<span class="visually-hidden">
-											Минимальная цена
-										</span>
-									</p>
-									<p class="cost-max">
-										<input type="text" name="price-max" id="price-max" value="30000" placeholder="30000">
-										<span class="visually-hidden">
-											Максимальная цена
-										</span>
-									</p>
-								</div>
-							</fieldset>
+                <legend class="price-filter">ЦЕНА:</legend>
+                <div class="range">
+                  <p class="line"></p>
+                  <p class="line-left"></p>
+                  <p class="range-left">
+                    <img src="img/filter-button.svg" width="20" height="23" alt="Левый ползунок">
+                  </p>
+                  <p class="range-right">
+                    <img src="img/filter-button.svg" width="20" height="23" alt="Правый ползунок">
+                  </p>
+                </div>
+                <div class="cost">
+                  <p class="cost-min">
+                    <input type="text" name="price-min" id="price-min" value="0" placeholder="0">
+                    <span class="visually-hidden">
+                      Минимальная цена
+                    </span>
+                  </p>
+                  <p class="cost-max">
+                    <input type="text" name="price-max" id="price-max" value="30000" placeholder="30000">
+                    <span class="visually-hidden">
+                      Максимальная цена
+                    </span>
+                  </p>
+                </div>
+              </fieldset>
               <fieldset class="manufacturers-filter">
                 <legend class="manufacturers-title">Производители:</legend>
                 <ul class="manufacturers-list">
-                  <li class="manufacturers-item"><input class="visually-hidden filter-input-checkbox" type="checkbox" name="Bosch" id="manufacturers-bosch" checked><label for="manufacturers-bosch">Bosch</label></li>
-                  <li class="manufacturers-item"><input class="visually-hidden filter-input-checkbox" type="checkbox" name="Interskol" id="manufacturers-interskol"><label for="manufacturers-interskol">Интерскол</label></li>
-                  <li class="manufacturers-item"><input class="visually-hidden filter-input-checkbox" type="checkbox" name="Makita" id="manufacturers-makita" checked><label for="manufacturers-makita">Makita</label></li>
-                  <li class="manufacturers-item"><input class="visually-hidden filter-input-checkbox" type="checkbox" name="Dewalt" id="manufacturers-dewalt"><label for="manufacturers-dewalt">Dewalt</label></li>
-                  <li class="manufacturers-item"><input class="visually-hidden filter-input-checkbox" type="checkbox" name="Hitachi" id="manufacturers-hitachi"><label for="manufacturers-hitachi">Hitachi</label></li>
+                  <li class="manufacturers-item"><input class="visually-hidden filter-input-checkbox" type="checkbox"
+                      name="Bosch" id="manufacturers-bosch" checked><label for="manufacturers-bosch">Bosch</label></li>
+                  <li class="manufacturers-item"><input class="visually-hidden filter-input-checkbox" type="checkbox"
+                      name="Interskol" id="manufacturers-interskol"><label
+                      for="manufacturers-interskol">Интерскол</label></li>
+                  <li class="manufacturers-item"><input class="visually-hidden filter-input-checkbox" type="checkbox"
+                      name="Makita" id="manufacturers-makita" checked><label for="manufacturers-makita">Makita</label>
+                  </li>
+                  <li class="manufacturers-item"><input class="visually-hidden filter-input-checkbox" type="checkbox"
+                      name="Dewalt" id="manufacturers-dewalt"><label for="manufacturers-dewalt">Dewalt</label></li>
+                  <li class="manufacturers-item"><input class="visually-hidden filter-input-checkbox" type="checkbox"
+                      name="Hitachi" id="manufacturers-hitachi"><label for="manufacturers-hitachi">Hitachi</label></li>
                 </ul>
               </fieldset>
               <fieldset class="power">
                 <legend class="power-title">Питание:</legend>
                 <ul class="power-list">
-                  <li class="power-item"><input class="visually-hidden filter-input-radio" type="radio" name="power" value="battery" id="power-battery" checked><label for="power-battery">Аккумуляторные</label></li>
-                  <li class="power-item"><input class="visually-hidden filter-input-radio" type="radio" name="power" value="mains" id="power-mains"><label for="power-mains">Сетевые</label></li>
+                  <li class="power-item"><input class="visually-hidden filter-input-radio" type="radio" name="power"
+                      value="battery" id="power-battery" checked><label for="power-battery">Аккумуляторные</label></li>
+                  <li class="power-item"><input class="visually-hidden filter-input-radio" type="radio" name="power"
+                      value="mains" id="power-mains"><label for="power-mains">Сетевые</label></li>
                 </ul>
               </fieldset>
               <button type="submit" class="btn-filter">Показать</button>
@@ -185,154 +194,181 @@
             <ul class="catalog-list catalog-wrap">
               <li class="catalog-item">
                 <div class="actions">
-                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
-                    <g>
-                      <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
-                      <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
-                      <polygon fill="#92c178" points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
-                    </g>
-                  </svg>Купить</a>
+                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px"
+                      viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                      <g>
+                        <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
+                        <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
+                        <polygon fill="#92c178"
+                          points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
+                      </g>
+                    </svg>Купить</a>
                   <a href="#" class="bookmark">В закладки</a>
                 </div>
-                <div class="image"><img src="img/bfg-3000.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 3000"></div>
+                <div class="image"><img src="img/bfg-3000.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 3000">
+                </div>
                 <h3><a href="#" class="item-header">Перфоратор Bosch BFG 3000</a></h3>
                 <div class="price-wrapper">
-                <div class="discount">22500 р.</div>
-                <div class="price">15500 р.</div>
-              </div>
+                  <div class="discount">22500 р.</div>
+                  <div class="price">15500 р.</div>
+                </div>
               </li>
               <li class="catalog-item">
                 <div class="actions">
-                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
-                    <g>
-                      <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
-                      <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
-                      <polygon fill="#92c178" points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
-                    </g>
-                  </svg>Купить</a>
+                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px"
+                      viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                      <g>
+                        <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
+                        <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
+                        <polygon fill="#92c178"
+                          points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
+                      </g>
+                    </svg>Купить</a>
                   <a href="#" class="bookmark">В закладки</a>
                 </div>
-                <div class="image"><img src="img/bfg-6000.jpg" width="144" height="128" alt="Перфоратор Bosch BFG 6000"></div>
+                <div class="image"><img src="img/bfg-6000.jpg" width="144" height="128" alt="Перфоратор Bosch BFG 6000">
+                </div>
                 <h3><a href="#" class="item-header">Перфоратор Bosch BFG 6000</a></h3>
                 <div class="price-wrapper">
-                <div class="discount">30500 р.</div>
-                <div class="price">25500 р.</div>
-              </div>
+                  <div class="discount">30500 р.</div>
+                  <div class="price">25500 р.</div>
+                </div>
               </li>
               <li class="catalog-item catalog-item-margin">
                 <div class="actions">
-                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
-                    <g>
-                      <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
-                      <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
-                      <polygon fill="#92c178" points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
-                    </g>
-                  </svg>Купить</a>
+                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px"
+                      viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                      <g>
+                        <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
+                        <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
+                        <polygon fill="#92c178"
+                          points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
+                      </g>
+                    </svg>Купить</a>
                   <a href="#" class="bookmark">В закладки</a>
                 </div>
-                <div class="image"><img src="img/bfg-2000.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 2000"></div>
+                <div class="image"><img src="img/bfg-2000.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 2000">
+                </div>
                 <h3 class="item-header-margin"><a href="#" class="item-header">Перфоратор Bosch BFG 2000</a></h3>
                 <div class="price">12500 р.</div>
               </li>
               <li class="catalog-item catalog-item-margin">
                 <div class="actions">
-                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
-                    <g>
-                      <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
-                      <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
-                      <polygon fill="#92c178" points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
-                    </g>
-                  </svg>Купить</a>
+                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px"
+                      viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                      <g>
+                        <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
+                        <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
+                        <polygon fill="#92c178"
+                          points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
+                      </g>
+                    </svg>Купить</a>
                   <a href="#" class="bookmark">В закладки</a>
                 </div>
-                <div class="image"><img src="img/bfg-3000.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 3000"></div>
+                <div class="image"><img src="img/bfg-3000.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 3000">
+                </div>
                 <h3><a href="#" class="item-header">Перфоратор Bosch BFG 3000</a></h3>
                 <div class="price-wrapper">
-                <div class="discount">22500 р.</div>
-                <div class="price">15500 р.</div>
-              </div>
+                  <div class="discount">22500 р.</div>
+                  <div class="price">15500 р.</div>
+                </div>
               </li>
               <li class="catalog-item catalog-item-margin">
                 <div class="actions">
-                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
-                    <g>
-                      <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
-                      <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
-                      <polygon fill="#92c178" points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
-                    </g>
-                  </svg>Купить</a>
+                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px"
+                      viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                      <g>
+                        <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
+                        <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
+                        <polygon fill="#92c178"
+                          points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
+                      </g>
+                    </svg>Купить</a>
                   <a href="#" class="bookmark">В закладки</a>
                 </div>
-                <div class="image"><img src="img/bfg-6000.jpg" width="144" height="128" alt="Перфоратор Bosch BFG 6000"></div>
+                <div class="image"><img src="img/bfg-6000.jpg" width="144" height="128" alt="Перфоратор Bosch BFG 6000">
+                </div>
                 <h3><a href="#" class="item-header">Перфоратор Bosch BFG 6000</a></h3>
                 <div class="price-wrapper">
-                <div class="discount">30500 р.</div>
-                <div class="price">25500 р.</div>
-              </div>
+                  <div class="discount">30500 р.</div>
+                  <div class="price">25500 р.</div>
+                </div>
               </li>
               <li class="catalog-item catalog-item-margin">
                 <div class="actions">
-                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
-                    <g>
-                      <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
-                      <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
-                      <polygon fill="#92c178" points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
-                    </g>
-                  </svg>Купить</a>
+                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px"
+                      viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                      <g>
+                        <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
+                        <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
+                        <polygon fill="#92c178"
+                          points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
+                      </g>
+                    </svg>Купить</a>
                   <a href="#" class="bookmark">В закладки</a>
                 </div>
-                <div class="image"><img src="img/bfg-2000.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 2000"></div>
+                <div class="image"><img src="img/bfg-2000.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 2000">
+                </div>
                 <h3 class="item-header-margin"><a href="#" class="item-header">Перфоратор Bosch BFG 2000</a></h3>
                 <div class="price">12500 р.</div>
               </li>
               <li class="catalog-item catalog-item-margin">
                 <div class="actions">
-                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
-                    <g>
-                      <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
-                      <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
-                      <polygon fill="#92c178" points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
-                    </g>
-                  </svg>Купить</a>
+                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px"
+                      viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                      <g>
+                        <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
+                        <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
+                        <polygon fill="#92c178"
+                          points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
+                      </g>
+                    </svg>Купить</a>
                   <a href="#" class="bookmark">В закладки</a>
                 </div>
-                <div class="image"><img src="img/bfg-3000.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 3000"></div>
+                <div class="image"><img src="img/bfg-3000.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 3000">
+                </div>
                 <h3><a href="#" class="item-header">Перфоратор Bosch BFG 3000</a></h3>
                 <div class="price-wrapper">
-                <div class="discount">22500 р.</div>
-                <div class="price">15500 р.</div>
-              </div>
+                  <div class="discount">22500 р.</div>
+                  <div class="price">15500 р.</div>
+                </div>
               </li>
               <li class="catalog-item catalog-item-margin">
                 <div class="actions">
-                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
-                    <g>
-                      <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
-                      <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
-                      <polygon fill="#92c178" points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
-                    </g>
-                  </svg>Купить</a>
+                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px"
+                      viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                      <g>
+                        <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
+                        <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
+                        <polygon fill="#92c178"
+                          points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
+                      </g>
+                    </svg>Купить</a>
                   <a href="#" class="bookmark">В закладки</a>
                 </div>
-                <div class="image"><img src="img/bfg-6000.jpg" width="144" height="128" alt="Перфоратор Bosch BFG 6000"></div>
+                <div class="image"><img src="img/bfg-6000.jpg" width="144" height="128" alt="Перфоратор Bosch BFG 6000">
+                </div>
                 <h3><a href="#" class="item-header">Перфоратор Bosch BFG 6000</a></h3>
                 <div class="price-wrapper">
-                <div class="discount">30500 р.</div>
-                <div class="price">25500 р.</div>
-              </div>
+                  <div class="discount">30500 р.</div>
+                  <div class="price">25500 р.</div>
+                </div>
               </li>
               <li class="catalog-item">
                 <div class="actions">
-                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
-                    <g>
-                      <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
-                      <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
-                      <polygon fill="#92c178" points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
-                    </g>
-                  </svg>Купить</a>
+                  <a href="#" class="buy"><svg version="1.1" x="0px" y="0px" width="15px" height="15px"
+                      viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                      <g>
+                        <circle fill="#92c178" cx="4.5" cy="13.5" r="1.5"></circle>
+                        <circle fill="#92c178" cx="12.5" cy="13.5" r="1.5"></circle>
+                        <polygon fill="#92c178"
+                          points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"></polygon>
+                      </g>
+                    </svg>Купить</a>
                   <a href="#" class="bookmark">В закладки</a>
                 </div>
-                <div class="image"><img src="img/bfg-2000.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 2000"></div>
+                <div class="image"><img src="img/bfg-2000.jpg" width="127" height="112" alt="Перфоратор Bosch BFG 2000">
+                </div>
                 <h3 class="item-header-margin"><a href="#" class="item-header">Перфоратор Bosch BFG 2000</a></h3>
                 <div class="price">12500 р.</div>
               </li>
