@@ -74,6 +74,11 @@ input[type="radio"].visually-hidden {
   width: 270px;
   padding-top: 59px;
   padding-left: 68px;
+  padding-right: 50px;
+}
+
+.header-contacts-padding {
+  padding-right: 0;
 }
 
 .header-contacts a {
@@ -1058,7 +1063,7 @@ input.header-search::placeholder {
   height: 45px;
   padding-top: 10px;
   padding-left: 74px;
-  padding-right: 45px;
+  padding-right: 37px;
   padding-bottom: 10px;
   border: 3px solid #fff;
   box-sizing: border-box;
@@ -1763,4 +1768,239 @@ input[type=search]:focus+label path {
   position: absolute;
   top: 7.5px;
   left: 7.5px;
+}
+
+.user-name {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000000;
+  width: 299px;
+  height: 45px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin-top: 44px;
+  padding-left: 13px;
+  padding-top: 12px;
+}
+
+.user-name a {
+  color: #000000;
+}
+
+.user-name a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.user-name-link {
+  padding-right: 13px;
+}
+
+.user-name-link:hover path {
+  fill: #32425c;
+}
+
+.user-exit:hover path,
+.user-exit:hover polygon {
+  fill: #32425c;
+}
+
+.personal-orders a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.personal-orders a:hover {
+  color: #ee3643;
+}
+
+.personal-orders a:active {
+  color: rgba(50, 66, 92, 0.3);
+}
+
+.user-exit:active path,
+.user-exit:active polygon,
+.user-name-link:active path {
+  fill: #c5c5c5;
+}
+
+.personal-orders {
+  padding-top: 15px;
+}
+
+.personal-orders a:first-child {
+  margin-right: 28px;
+  position: relative;
+}
+
+.personal-orders a:first-child::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 8px;
+  left: 90px;
+  background-color: #32425c;
+  border-radius: 50%;
+}
+
+.sort-header {
+  padding-left: 19px;
+  padding-right: 139px;
+}
+
+.sort-section {
+  padding-top: 10px;
+}
+
+.sort-price {
+  margin-right: 70px;
+}
+
+.sort-type {
+  border-bottom: 1px dashed #ee3643;
+  margin-right: 61px;
+}
+
+.sort-functional {
+  border-bottom: 1px dashed #ee3643;
+}
+
+.sort-price:hover,
+.sort-type:hover,
+.sort-functional:hover {
+  color: #000000;
+  border-bottom: 1px solid #ee3643;
+}
+
+.sort-type:active,
+.sort-functional:active,
+.sort-price:active {
+  color: #ee3643;
+  border-bottom: none;
+}
+
+.sort-buttons {
+  width: 43px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort-buttons .button-up,
+.sort-buttons .button-down {
+  width: 0;
+  height: 0;
+  padding: 0;
+  border-style: solid;
+  border-width: 0 5.5px 10px;
+  border-color: transparent transparent #c5c5c5;
+}
+
+.sort-buttons .button-down {
+  transform: rotate(180deg);
+}
+
+.sort-buttons .button-down:hover,
+.sort-buttons .button-up:hover {
+  border-color: transparent transparent #231f20;
+}
+
+.sort-buttons .active,
+.sort-buttons .button-down:active,
+.sort-buttons .button-up:active {
+  border-color: transparent transparent #ee3643;
+}
+
+.sort-buttons {
+  padding-top: 12px;
+  margin-left: 44px;
+}
+
+.logo a {
+  display: inline-block;
+  width: 165px;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 7px;
+  padding-left: 55px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Cuprum","Arial",sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
+  background-color: #ee3643;
+  box-shadow: 0 5px 0 0 #b52933;
+}
+
+.logo h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 26px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.logo a:hover {
+  background-color: #ca2c37;
+}
+
+.logo a:active {
+  background-color: #ba2732;
+}
+
+.social-list {
+  min-width: 170px;
+}
+
+.social-button,
+.social-list {
+  justify-content: center;
+}
+
+.social-button,
+.social-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-item:not(:last-child) .social-button {
+  margin-right: 4px;
+}
+
+.social-button {
+  align-items: center;
+  width: 41px;
+  height: 41px;
+  background-color: #212a3a;
+  border-radius: 50%;
+  margin-top: -3px;
+}
+
+.social-list {
+  padding: 0;
+}
+
+.social-button-vk svg {
+  margin-left: 7px;
+}
+
+.social-button-fb svg {
+  margin-left: 13px;
+}
+
+.social-button-instagram svg {
+ margin-left: 10px;
+}
+
+.social-button:active,
+.social-button:hover {
+  background-color: #ee3643;
 }
