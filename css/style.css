@@ -1,7 +1,9 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
 
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 body {
-  font-family: "Cuprum", Arial, sans-serif;
+  font-family: "Cuprum","Arial", sans-serif;
   margin: 0;
 
   margin-left: auto;
@@ -78,7 +80,6 @@ input[type="radio"].visually-hidden {
 
 .header-contacts {
   position: relative;
-  width: 270px;
   padding-top: 59px;
   padding-left: 68px;
   padding-right: 50px;
@@ -104,7 +105,6 @@ input[type="radio"].visually-hidden {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: relative;
-  margin-left: 5px;
 }
 
 .bookmarks,
@@ -129,8 +129,8 @@ input[type="radio"].visually-hidden {
   font-weight: 400;
   color: #32425c;
   font-style: normal;
-  padding-top: 15px;
-  padding-left: 10px;
+  padding-top: 17px;
+  padding-left: 12px;
 }
 
 .user-navigation {
@@ -288,7 +288,7 @@ input[type="radio"].visually-hidden {
 }
 
 .item-header {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -296,7 +296,7 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item .discount {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 18px;
@@ -304,7 +304,7 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item .price {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 18px;
@@ -341,7 +341,7 @@ input[type="radio"].visually-hidden {
 }
 
 .service p {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
@@ -399,7 +399,7 @@ input[type="radio"].visually-hidden {
 }
 
 .about-delivery p {
-  font-family: "PT Sans",Arial,sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
@@ -548,7 +548,7 @@ input[type="radio"].visually-hidden {
 }
 
 .breadcrumb-item  {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 18px;
@@ -579,7 +579,7 @@ input[type="radio"].visually-hidden {
 
 .manufacturers-item label,
 .power-item label {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
@@ -589,12 +589,16 @@ input[type="radio"].visually-hidden {
 
 .manufacturers-title,
 .power-title {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 30px;
   color: #000000;
   text-transform: uppercase;
+}
+
+.power-title {
+  letter-spacing: 0.17px;
 }
 
 .power-list {
@@ -603,7 +607,7 @@ input[type="radio"].visually-hidden {
 }
 
 .btn-filter {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 18px;
@@ -612,7 +616,8 @@ input[type="radio"].visually-hidden {
   height: 38px;
   background-color: #ffffff;
   border: 1px solid #e5e5e5;
-  margin-top: 60px;
+  margin-top: 62px;
+  cursor: pointer;
 }
 
 .catalog-wrap {
@@ -637,7 +642,7 @@ input[type="radio"].visually-hidden {
 }
 
 .about-perforators p {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
@@ -656,7 +661,7 @@ input[type="radio"].visually-hidden {
 
 .pagination-item,
 .pagination-item-current {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 18px;
@@ -700,7 +705,7 @@ input[type="radio"].visually-hidden {
 
 .sort a,
 .sort-header {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 18px;
@@ -980,8 +985,8 @@ input.header-search::placeholder {
   border-radius: 50%;
 }
 
-#slider-1:checked~.slider-controls .slider-controls-item-1::after,
-#slider-2:checked~.slider-controls .slider-controls-item-2::after {
+.slider-1:checked~.slider-controls .slider-controls-item-1::after,
+.slider-2:checked~.slider-controls .slider-controls-item-2::after {
   content: "";
   position: absolute;
   left: 2px;
@@ -1045,8 +1050,8 @@ input.header-search::placeholder {
   margin-top: 20px;
 }
 
-#slider-1:checked~.slider-list .slider-list-item:first-child,
-#slider-2:checked~.slider-list .slider-list-item:last-child {
+.slider-1:checked~.slider-list .slider-list-item:first-child,
+.slider-2:checked~.slider-list .slider-list-item:last-child {
   display: block;
 }
 
@@ -1078,7 +1083,7 @@ input.header-search::placeholder {
 .slider-list-item span {
   display: block;
   margin: 3px 0 0;
-  font-family: "PT Sans",Arial,sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
 }
@@ -1137,7 +1142,7 @@ input.header-search::placeholder {
 .breadcrumbs-item a {
   position: relative;
   display: block;
-  font-family: "PT Sans",Arial,sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
@@ -1146,7 +1151,7 @@ input.header-search::placeholder {
 }
 
 .perforators-header {
-  padding-top: 25px;
+  padding-top: 26px;
   padding-left: 30px;
 }
 
@@ -1169,7 +1174,7 @@ input.header-search::placeholder {
 }
 
 .filter-header {
-  font-family: "PT Sans",Arial,sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 18px;
@@ -1337,10 +1342,10 @@ input.header-search::placeholder {
   position: absolute;
   top: 0px;
   left: 0;
-  width: 218px;
+  width: 216px;
   height: 88px;
   padding: 40px 0;
-  background-color: rgba(255,255,255,0.9);
+  background-color: #ffffff;
   z-index: 10;
 }
 
@@ -1358,7 +1363,7 @@ input.header-search::placeholder {
   color: white;
   font-size: 14px;
   font-weight: normal;
-  font-family: "Cuprum", sans-serif;
+  font-family: "Cuprum","Arial", sans-serif;
   line-height: 18px;
   text-decoration: none;
   text-transform: uppercase;
@@ -1373,6 +1378,7 @@ input.header-search::placeholder {
 
 .catalog-item .actions {
   display: none;
+  padding-top: 45px;
 }
 
 .catalog-item:hover .actions {
@@ -1431,6 +1437,7 @@ input.header-search::placeholder {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .filter-catalog .cost::before {
@@ -1452,7 +1459,7 @@ input.header-search::placeholder {
 }
 
 .cost input {
-  font-family: "PT Sans",Arial,sans-serif;
+  font-family: "PT Sans","Arial",sans-serif;
   font-size: 17px;
   line-height: 18px;
   width: 75px;
@@ -1472,7 +1479,7 @@ input.header-search::placeholder {
 }
 
 .price-filter {
-  font-family: "PT Sans",Arial,sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 30px;
@@ -1480,10 +1487,19 @@ input.header-search::placeholder {
   padding-bottom: 15px;
 }
 
-.range-filter,
-.manufacturers-filter {
-  margin-bottom: 25px;
+.range-filter {
+  margin-bottom: 15px;
 }
+
+.manufacturers-filter {
+  margin-bottom: 21px;
+}
+
+.manufacturers-list {
+  margin-bottom: 20px;
+}
+
+
 
 .services-slider {
   display: -webkit-box;
@@ -1576,7 +1592,7 @@ input.header-search::placeholder {
 .services p {
   width: 400px;
   margin: 29px 0 0;
-  font-family: "PT Sans",Arial,sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 13px;
 }
 
@@ -1847,6 +1863,10 @@ input[type=search]:focus+label path {
   margin-bottom: 20px;
 }
 
+.power {
+  margin-left: 0;
+}
+
 .manufacturers-item label,
 .power-item label {
   position: relative;
@@ -1886,9 +1906,9 @@ input[type=search]:focus+label path {
 
 .power-list label::before {
   content: "";
-  width: 14px;
-  height: 14px;
-  border: 5px solid #c5c5c5;
+  width: 17px;
+  height: 17px;
+  border: 4px solid #c5c5c5;
   border-radius: 50%;
   position: absolute;
   top: 0;
@@ -1902,8 +1922,8 @@ input[type=search]:focus+label path {
   background-color: #c5c5c5;
   border-radius: 50%;
   position: absolute;
-  top: 7.5px;
-  left: 7.5px;
+  top: 8px;
+  left: 8px;
 }
 
 .user-name {
@@ -1931,6 +1951,11 @@ input[type=search]:focus+label path {
 
 .user-name-link {
   padding-right: 13px;
+  cursor: pointer;
+}
+
+.user-exit {
+  cursor: pointer;
 }
 
 .user-name-link:hover path {
@@ -2066,15 +2091,15 @@ input[type=search]:focus+label path {
 .logo a {
   display: inline-block;
   width: 165px;
-  padding-top: 5px;
+  padding-top: 8px;
   padding-right: 0px;
-  padding-bottom: 7px;
+  padding-bottom: 4px;
   padding-left: 55px;
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
   font-style: normal;
-  font-family: "Cuprum","Arial",sans-serif;
+  font-family: "Cuprum","Arial", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   text-align: left;
@@ -2228,7 +2253,7 @@ input[type=search]:focus+label path {
   width: 220px;
   padding: 10px 0;
   text-align: center;
-  font-family: "Cuprum",Arial,sans-serif;
+  font-family: "Cuprum","Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   border-radius: 4px;
@@ -2439,7 +2464,7 @@ input[type=search]:focus+label path {
 
 .login-form input,
 .login-form textarea {
-  font-family: "PT Sans",Arial,sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
@@ -2489,10 +2514,10 @@ input[type=search]:focus+label path {
   width: 100%;
   padding: 10px 0;
   background-color: #ee3643;
-  font-family: "Cuprum",Arial,sans-serif;
+  font-family: "Cuprum","Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
-  color: #fff;
+  color: #ffffff;
   border-radius: 4px;
 }
 
@@ -2544,7 +2569,7 @@ input[type=search]:focus+label path {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
-  color: #fff;
+  color: #ffffff;
   background-color: #ff5357;
   width: 195px;
   padding: 10px 0;
@@ -2558,7 +2583,7 @@ input[type=search]:focus+label path {
 .description .delivery-slogan,
 .description .guarantee,
 .description .credit {
-  font-family: "PT Sans",Arial,sans-serif;
+  font-family: "PT Sans","Arial", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
@@ -2610,7 +2635,7 @@ input[type=search]:focus+label path {
 }
 
 .basket {
-  padding-left: 10px;
+  padding-left: 20px;
   width: 135px;
 }
 
@@ -2682,4 +2707,29 @@ input[type=search]:focus+label path {
   background-image: url(../img/new.png);
   background-repeat: no-repeat;
   background-position: 240px 0;
+}
+
+.basket-icon circle,
+.basket-icon polygon {
+  opacity: 0.3;
+  fill: #ffffff;
+}
+
+.buy-content a:hover+svg,
+.buy-content a:hover+svg path {
+  fill: #fff;
+}
+
+.buy-content svg:hover polygon,
+.buy-content svg:hover circle,
+.buy-content svg:hover path {
+  opacity: 1;
+  fill: #ffffff;
+}
+
+.buy-content svg:active polygon,
+.buy-content svg:active circle,
+.buy-content svg:active path {
+  opacity: 0.5;
+  fill: #ffffff;
 }
