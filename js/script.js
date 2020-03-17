@@ -78,3 +78,18 @@ window.addEventListener("keydown", function (evt) {
     }
   }
 });
+
+// for modal-error
+var form = popup.querySelector(".login-form");
+var user_name = popup.querySelector("[name=user-name]");
+var user_email = popup.querySelector("[name=user-email]");
+
+form.addEventListener("submit", function (evt) {
+  if (!user_name.value || !user_email.value) {
+    evt.preventDefault();
+    popup.classList.remove("modal-error");
+    popup.offsetWidth = popup.offsetWidth;
+    popup.classList.add("modal-error");
+    console.log("нужно вести в поля данные");
+  }
+});
